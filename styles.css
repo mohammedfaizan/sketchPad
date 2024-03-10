@@ -1,0 +1,44 @@
+.super {
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    margin: 20px;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    border: 2px solid #ccc; /* Border for the container */
+}
+
+.row-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-div {
+    box-sizing: border-box;
+    border: 1px solid #fff; /* Border for each grid cell */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.hover {
+    background-color: black; /* Color for hover effect */
+}
+
+h1{
+    text-align: center;
+}
+
+button {
+    background-color: lightblue;
+    border-radius: 12%;
+}
+
+
+body {
+    background-color: aliceblue;
+}
